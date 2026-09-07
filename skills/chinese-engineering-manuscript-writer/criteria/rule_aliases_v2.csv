@@ -1,0 +1,4 @@
+"old_id","canonical_id","record_type","counts_as_cross_cutting_rule","note"
+"D-01","C-01","MERGED_ALIAS","NO","原D-01并入C-01；只执行一次"
+"L-03","G-02","MERGED_ALIAS","NO","原L-03并入G-02；只执行一次"
+"RULE-GAP-CANDIDATE-M01","METHODS-IMPL-01","METHODS_IMPLEMENTATION_RENAME","NO","原Methods候选M01；不是数值M-01；E-01的Methods实施原则"

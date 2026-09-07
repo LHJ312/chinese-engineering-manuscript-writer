@@ -1,0 +1,213 @@
+[
+  {
+    "style_id": "SC-01",
+    "writing_function": "科学综合",
+    "linked_rules": [
+      "B-01",
+      "B-02",
+      "L-01",
+      "G-02"
+    ],
+    "path": "examples/style_cards/SC-01.md",
+    "case_ids": [
+      "INT-02",
+      "INT-03"
+    ]
+  },
+  {
+    "style_id": "SC-02",
+    "writing_function": "已有知识综合",
+    "linked_rules": [
+      "B-01",
+      "B-02",
+      "I-01"
+    ],
+    "path": "examples/style_cards/SC-02.md",
+    "case_ids": [
+      "INT-02",
+      "INT-04"
+    ]
+  },
+  {
+    "style_id": "SC-03",
+    "writing_function": "具体Gap",
+    "linked_rules": [
+      "B-01",
+      "G-02",
+      "L-01"
+    ],
+    "path": "examples/style_cards/SC-03.md",
+    "case_ids": [
+      "INT-03",
+      "INT-01"
+    ]
+  },
+  {
+    "style_id": "SC-04",
+    "writing_function": "Methods信息层级",
+    "linked_rules": [
+      "E-01",
+      "E-02",
+      "L-02",
+      "N-01"
+    ],
+    "path": "examples/style_cards/SC-04.md",
+    "case_ids": [
+      "MET-01",
+      "MET-02",
+      "MET-03"
+    ]
+  },
+  {
+    "style_id": "SC-05",
+    "writing_function": "数值模型验证",
+    "linked_rules": [
+      "M-02",
+      "C-03",
+      "G-02"
+    ],
+    "path": "examples/style_cards/SC-05.md",
+    "case_ids": [
+      "RES-03",
+      "MET-02",
+      "ABS-02"
+    ]
+  },
+  {
+    "style_id": "SC-06",
+    "writing_function": "结果数字压缩",
+    "linked_rules": [
+      "C-01",
+      "C-02",
+      "C-03"
+    ],
+    "path": "examples/style_cards/SC-06.md",
+    "case_ids": [
+      "RES-02",
+      "CON-04"
+    ]
+  },
+  {
+    "style_id": "SC-07",
+    "writing_function": "参数—响应关系",
+    "linked_rules": [
+      "O-01",
+      "O-02",
+      "C-02"
+    ],
+    "path": "examples/style_cards/SC-07.md",
+    "case_ids": [
+      "RES-02",
+      "CON-01",
+      "CON-03"
+    ]
+  },
+  {
+    "style_id": "SC-08",
+    "writing_function": "空间场/云图表达",
+    "linked_rules": [
+      "M-03",
+      "C-03",
+      "G-02"
+    ],
+    "path": "examples/style_cards/SC-08.md",
+    "case_ids": [
+      "DIS-03"
+    ]
+  },
+  {
+    "style_id": "SC-09",
+    "writing_function": "Results就近解释",
+    "linked_rules": [
+      "F-02",
+      "G-02"
+    ],
+    "path": "examples/style_cards/SC-09.md",
+    "case_ids": [
+      "RES-04",
+      "RES-03",
+      "DIS-01"
+    ]
+  },
+  {
+    "style_id": "SC-10",
+    "writing_function": "Discussion机制提升",
+    "linked_rules": [
+      "G-01",
+      "G-02",
+      "F-02"
+    ],
+    "path": "examples/style_cards/SC-10.md",
+    "case_ids": [
+      "DIS-01",
+      "DIS-02"
+    ]
+  },
+  {
+    "style_id": "SC-11",
+    "writing_function": "多结果综合",
+    "linked_rules": [
+      "A-01",
+      "G-01",
+      "K-02",
+      "L-01"
+    ],
+    "path": "examples/style_cards/SC-11.md",
+    "case_ids": [
+      "DIS-02",
+      "DIS-04"
+    ]
+  },
+  {
+    "style_id": "SC-12",
+    "writing_function": "结论提炼",
+    "linked_rules": [
+      "H-01",
+      "H-02",
+      "C-02",
+      "L-01"
+    ],
+    "path": "examples/style_cards/SC-12.md",
+    "case_ids": [
+      "CON-01",
+      "CON-02",
+      "CON-03",
+      "CON-04"
+    ]
+  },
+  {
+    "style_id": "SC-13",
+    "writing_function": "摘要压缩",
+    "linked_rules": [
+      "C-01",
+      "C-02",
+      "C-03",
+      "G-02",
+      "L-01"
+    ],
+    "path": "examples/style_cards/SC-13.md",
+    "case_ids": [
+      "ABS-01",
+      "ABS-02",
+      "ABS-03",
+      "ABS-04"
+    ]
+  },
+  {
+    "style_id": "SC-14",
+    "writing_function": "保留正常表达",
+    "linked_rules": [
+      "N-01",
+      "K-01",
+      "D-02",
+      "L-01"
+    ],
+    "path": "examples/style_cards/SC-14.md",
+    "case_ids": [
+      "MET-04",
+      "RES-04",
+      "CON-04",
+      "ABS-04"
+    ]
+  }
+]

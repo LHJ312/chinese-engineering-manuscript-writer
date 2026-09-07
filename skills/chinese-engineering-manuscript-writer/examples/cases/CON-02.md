@@ -1,0 +1,64 @@
+# CON-02 | PUBLIC_PATTERN_SUMMARY
+
+section: Conclusion
+function: CONDITIONAL_CONCLUSION
+reference_category: GOOD_PATTERN
+
+公开版仅保留编辑模式，不提供原段、改稿或原文的替代文本。模式不是待写论文的研究事实；实际编辑必须取得用户自己的输入与上下文。
+
+**pattern_summary**：结论保留具体材料配比、低强ECC条件与可能性，提炼时不扩大命题。
+
+**why_it_works**：结论保留具体材料配比、低强ECC条件与可能性，提炼时不扩大命题。
+
+**when_to_use**：输入与此功能及条件相符时局部参考，不能移植论文事实。
+
+**when_not_to_use**：独立结论重述条件是必要用途，不是防御口吻。
+
+**material_issue_scope**：仅判断此写作动作，不认证整段或研究真实性。
+
+**recommended_action**：PATTERN_REFERENCE
+
+**preserve**：独立结论重述条件是必要用途，不是防御口吻。
+
+linked_rules: H-02, L-01, G-02
+
+[公开书目信息](../sources.md#m02)
+
+## 来源表示
+
+```json
+{
+  "case_id": "CON-02",
+  "section": "Conclusion",
+  "case_type": "PUBLIC_PATTERN_SUMMARY",
+  "reference_category": "GOOD_PATTERN",
+  "function": "CONDITIONAL_CONCLUSION",
+  "linked_rules": [
+    "H-02",
+    "L-01",
+    "G-02"
+  ],
+  "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+  "original_text_included": false,
+  "edited_text_included": false,
+  "paper_id": "M02",
+  "bibliography": "examples/sources.md#m02",
+  "source_locator": {
+    "source_id": "M02",
+    "section": "5",
+    "fragments": [
+      {
+        "raw_id": "M02-U098",
+        "pdf_page": 12,
+        "column": "R",
+        "bbox_pt": [
+          350.56799,
+          620.42351,
+          570.28,
+          709.30751
+        ]
+      }
+    ]
+  }
+}
+```

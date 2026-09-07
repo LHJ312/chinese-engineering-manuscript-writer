@@ -1,0 +1,432 @@
+[
+  {
+    "case_id": "INT-01",
+    "section": "Introduction",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BAD_TO_GOOD",
+    "function": "PLAN_TO_PROSE_LEAKAGE",
+    "linked_rules": [
+      "K-02",
+      "B-01"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "source_scope": "UNPUBLISHED_SOURCE_WITHHELD",
+    "path": "examples/cases/INT-01.md"
+  },
+  {
+    "case_id": "INT-02",
+    "section": "Introduction",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "GOOD_PATTERN",
+    "function": "ESTABLISHED_KNOWLEDGE",
+    "linked_rules": [
+      "B-01",
+      "B-02",
+      "I-01",
+      "L-01"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M09",
+    "bibliography": "examples/sources.md#m09",
+    "path": "examples/cases/INT-02.md"
+  },
+  {
+    "case_id": "INT-03",
+    "section": "Introduction",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BOUNDARY_CASE",
+    "function": "GAP_RESPONSE",
+    "linked_rules": [
+      "B-01",
+      "I-02",
+      "J-01"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M04",
+    "bibliography": "examples/sources.md#m04",
+    "path": "examples/cases/INT-03.md"
+  },
+  {
+    "case_id": "INT-04",
+    "section": "Introduction",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "NO_MATERIAL_ISSUE",
+    "function": "RESPONSE_DEPENDENCY",
+    "linked_rules": [
+      "E-01",
+      "J-01",
+      "K-01"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M02",
+    "bibliography": "examples/sources.md#m02",
+    "path": "examples/cases/INT-04.md"
+  },
+  {
+    "case_id": "MET-01",
+    "section": "Methods",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BAD_TO_GOOD",
+    "function": "METHODS_INFORMATION_HIERARCHY",
+    "linked_rules": [
+      "E-01",
+      "L-02",
+      "N-01"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "source_scope": "UNPUBLISHED_SOURCE_WITHHELD",
+    "path": "examples/cases/MET-01.md"
+  },
+  {
+    "case_id": "MET-02",
+    "section": "Methods",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "GOOD_PATTERN",
+    "function": "NUMERICAL_MODEL",
+    "linked_rules": [
+      "E-01",
+      "E-02",
+      "M-01"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M04",
+    "bibliography": "examples/sources.md#m04",
+    "path": "examples/cases/MET-02.md"
+  },
+  {
+    "case_id": "MET-03",
+    "section": "Methods",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BOUNDARY_CASE",
+    "function": "SIMILARITY_AND_DESIGN",
+    "linked_rules": [
+      "L-01",
+      "L-02",
+      "E-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M03",
+    "bibliography": "examples/sources.md#m03",
+    "path": "examples/cases/MET-03.md"
+  },
+  {
+    "case_id": "MET-04",
+    "section": "Methods",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "NO_MATERIAL_ISSUE",
+    "function": "RECOVERABLE_MEASUREMENT",
+    "linked_rules": [
+      "N-01",
+      "E-01"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M02",
+    "bibliography": "examples/sources.md#m02",
+    "path": "examples/cases/MET-04.md"
+  },
+  {
+    "case_id": "RES-01",
+    "section": "Results",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BAD_TO_GOOD",
+    "function": "RESULTS_WITH_RELIABILITY_INTERRUPTION",
+    "linked_rules": [
+      "F-01",
+      "F-02",
+      "L-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "source_scope": "UNPUBLISHED_SOURCE_WITHHELD",
+    "path": "examples/cases/RES-01.md"
+  },
+  {
+    "case_id": "RES-02",
+    "section": "Results",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "GOOD_PATTERN",
+    "function": "CONTROLLED_COMPARISON",
+    "linked_rules": [
+      "B-01",
+      "C-01",
+      "C-03",
+      "O-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M01",
+    "bibliography": "examples/sources.md#m01",
+    "path": "examples/cases/RES-02.md"
+  },
+  {
+    "case_id": "RES-03",
+    "section": "Results",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BOUNDARY_CASE",
+    "function": "VALIDATION_SCOPE",
+    "linked_rules": [
+      "M-02",
+      "C-03",
+      "F-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M04",
+    "bibliography": "examples/sources.md#m04",
+    "path": "examples/cases/RES-03.md"
+  },
+  {
+    "case_id": "RES-04",
+    "section": "Results",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "NO_MATERIAL_ISSUE",
+    "function": "TIME_HISTORY",
+    "linked_rules": [
+      "A-02",
+      "F-01",
+      "F-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M02",
+    "bibliography": "examples/sources.md#m02",
+    "path": "examples/cases/RES-04.md"
+  },
+  {
+    "case_id": "DIS-01",
+    "section": "Discussion",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BAD_TO_GOOD",
+    "function": "CLAIM_STRENGTH_REPAIR",
+    "linked_rules": [
+      "G-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M01",
+    "bibliography": "examples/sources.md#m01",
+    "path": "examples/cases/DIS-01.md"
+  },
+  {
+    "case_id": "DIS-02",
+    "section": "Discussion",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "GOOD_PATTERN",
+    "function": "MULTI_RESULT_SYNTHESIS",
+    "linked_rules": [
+      "A-01",
+      "G-01",
+      "G-02",
+      "L-01"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M09",
+    "bibliography": "examples/sources.md#m09",
+    "path": "examples/cases/DIS-02.md"
+  },
+  {
+    "case_id": "DIS-03",
+    "section": "Discussion",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BOUNDARY_CASE",
+    "function": "SPATIAL_FIELD_MECHANISM",
+    "linked_rules": [
+      "M-03",
+      "M-02",
+      "G-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M06",
+    "bibliography": "examples/sources.md#m06",
+    "path": "examples/cases/DIS-03.md"
+  },
+  {
+    "case_id": "DIS-04",
+    "section": "Discussion",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "NO_MATERIAL_ISSUE",
+    "function": "EXPLANATORY_INCREMENT",
+    "linked_rules": [
+      "G-01",
+      "B-01",
+      "K-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M04",
+    "bibliography": "examples/sources.md#m04",
+    "path": "examples/cases/DIS-04.md"
+  },
+  {
+    "case_id": "CON-01",
+    "section": "Conclusion",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BAD_TO_GOOD",
+    "function": "BOUNDED_COMPARATIVE_CLAIM",
+    "linked_rules": [
+      "G-02",
+      "O-02",
+      "H-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M03",
+    "bibliography": "examples/sources.md#m03",
+    "path": "examples/cases/CON-01.md"
+  },
+  {
+    "case_id": "CON-02",
+    "section": "Conclusion",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "GOOD_PATTERN",
+    "function": "CONDITIONAL_CONCLUSION",
+    "linked_rules": [
+      "H-02",
+      "L-01",
+      "G-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M02",
+    "bibliography": "examples/sources.md#m02",
+    "path": "examples/cases/CON-02.md"
+  },
+  {
+    "case_id": "CON-03",
+    "section": "Conclusion",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BOUNDARY_CASE",
+    "function": "CONDITION_LOSS",
+    "linked_rules": [
+      "C-02",
+      "H-02",
+      "O-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M08",
+    "bibliography": "examples/sources.md#m08",
+    "path": "examples/cases/CON-03.md"
+  },
+  {
+    "case_id": "CON-04",
+    "section": "Conclusion",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "NO_MATERIAL_ISSUE",
+    "function": "QUANTITATIVE_CONTRIBUTION",
+    "linked_rules": [
+      "C-01",
+      "C-03",
+      "H-01"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M04",
+    "bibliography": "examples/sources.md#m04",
+    "path": "examples/cases/CON-04.md"
+  },
+  {
+    "case_id": "ABS-01",
+    "section": "Abstract",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "GOOD_PATTERN",
+    "function": "CONDITIONAL_ABSTRACT",
+    "linked_rules": [
+      "C-02",
+      "I-01",
+      "G-02",
+      "L-01"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M02",
+    "bibliography": "examples/sources.md#m02",
+    "path": "examples/cases/ABS-01.md"
+  },
+  {
+    "case_id": "ABS-02",
+    "section": "Abstract",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BOUNDARY_CASE",
+    "function": "STATISTIC_AND_METRIC",
+    "linked_rules": [
+      "C-03",
+      "I-01",
+      "M-02",
+      "O-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M03",
+    "bibliography": "examples/sources.md#m03",
+    "path": "examples/cases/ABS-02.md"
+  },
+  {
+    "case_id": "ABS-03",
+    "section": "Abstract",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "BOUNDARY_CASE",
+    "function": "ABSTRACT_SCOPE",
+    "linked_rules": [
+      "C-02",
+      "G-02",
+      "M-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M08",
+    "bibliography": "examples/sources.md#m08",
+    "path": "examples/cases/ABS-03.md"
+  },
+  {
+    "case_id": "ABS-04",
+    "section": "Abstract",
+    "case_type": "PUBLIC_PATTERN_SUMMARY",
+    "reference_category": "NO_MATERIAL_ISSUE",
+    "function": "CONDITION_PRESERVATION",
+    "linked_rules": [
+      "L-01",
+      "C-01",
+      "N-02"
+    ],
+    "text_representation": "EDITORIAL_PATTERN_SUMMARY_NOT_ORIGINAL_TEXT",
+    "original_text_included": false,
+    "edited_text_included": false,
+    "paper_id": "M07",
+    "bibliography": "examples/sources.md#m07",
+    "path": "examples/cases/ABS-04.md"
+  }
+]

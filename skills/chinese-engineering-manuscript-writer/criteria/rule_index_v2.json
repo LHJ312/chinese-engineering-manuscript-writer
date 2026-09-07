@@ -1,0 +1,219 @@
+{
+  "A-01": {
+    "title": "围绕主导问题及论证依赖组织段落",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 21,
+    "line_end": 32
+  },
+  "A-02": {
+    "title": "按科学问题选择信息顺序",
+    "level": "LEVEL_3_HEURISTIC",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 33,
+    "line_end": 44
+  },
+  "B-01": {
+    "title": "建立判断与支撑之间的对应关系",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 45,
+    "line_end": 56
+  },
+  "B-02": {
+    "title": "用实际关系衔接相邻句",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 57,
+    "line_end": 68
+  },
+  "C-01": {
+    "title": "按论证用途分配正文数字与图表信息",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 69,
+    "line_end": 80
+  },
+  "C-02": {
+    "title": "选择关键数字时保留转折与反例",
+    "level": "LEVEL_1_HARD",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 81,
+    "line_end": 92
+  },
+  "C-03": {
+    "title": "使比较量的口径可辨认",
+    "level": "LEVEL_1_HARD",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 93,
+    "line_end": 104
+  },
+  "D-02": {
+    "title": "按导读用途选择图表引导语",
+    "level": "LEVEL_3_HEURISTIC",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 105,
+    "line_end": 116
+  },
+  "E-01": {
+    "title": "保留复现条件，删除操作流水账",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 117,
+    "line_end": 128
+  },
+  "E-02": {
+    "title": "区分方法选择依据与结果评价",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 129,
+    "line_end": 140
+  },
+  "F-01": {
+    "title": "以研究发现代替作者动作",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 141,
+    "line_end": 152
+  },
+  "F-02": {
+    "title": "按解释功能与前提安排结果和讨论",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 153,
+    "line_end": 164
+  },
+  "G-01": {
+    "title": "讨论必须增加解释价值",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 165,
+    "line_end": 176
+  },
+  "G-02": {
+    "title": "使论断强度与已确认依据相称",
+    "level": "LEVEL_1_HARD",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 177,
+    "line_end": 188
+  },
+  "H-01": {
+    "title": "按贡献类型提炼结论",
+    "level": "LEVEL_3_HEURISTIC",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 189,
+    "line_end": 200
+  },
+  "H-02": {
+    "title": "结论不首次提出新判断",
+    "level": "LEVEL_1_HARD",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 201,
+    "line_end": 212
+  },
+  "I-01": {
+    "title": "明确物理对象与响应指标",
+    "level": "LEVEL_1_HARD",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 213,
+    "line_end": 224
+  },
+  "I-02": {
+    "title": "用具体关系替代空泛评价",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 225,
+    "line_end": 236
+  },
+  "J-01": {
+    "title": "按阅读用途精简研究意图播报",
+    "level": "LEVEL_3_HEURISTIC",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 237,
+    "line_end": 248
+  },
+  "J-02": {
+    "title": "按使用需要压缩常识铺垫",
+    "level": "LEVEL_3_HEURISTIC",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 249,
+    "line_end": 260
+  },
+  "K-01": {
+    "title": "按信息差异选择段落形式",
+    "level": "LEVEL_3_HEURISTIC",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 261,
+    "line_end": 272
+  },
+  "K-02": {
+    "title": "删除同义复述，不强行制造句式变化",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 273,
+    "line_end": 284
+  },
+  "L-01": {
+    "title": "在范围发生变化的位置保留限定",
+    "level": "LEVEL_1_HARD",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 285,
+    "line_end": 296
+  },
+  "L-02": {
+    "title": "将编辑审计状态与科学限制分开表达",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 297,
+    "line_end": 308
+  },
+  "M-01": {
+    "title": "用建模选择及其作用组织数值方法",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 309,
+    "line_end": 320
+  },
+  "M-02": {
+    "title": "数值可信度按实际比较对象表述",
+    "level": "LEVEL_1_HARD",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 321,
+    "line_end": 332
+  },
+  "M-03": {
+    "title": "用云图中的物理关系支撑机制表述",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 333,
+    "line_end": 344
+  },
+  "N-01": {
+    "title": "按可恢复性检查试验比较与测量条件",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 345,
+    "line_end": 356
+  },
+  "N-02": {
+    "title": "区分个体观察、组内离散与总体判断",
+    "level": "LEVEL_1_HARD",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 357,
+    "line_end": 368
+  },
+  "O-01": {
+    "title": "小节形成明确的参数—响应判断",
+    "level": "LEVEL_2_STRONG",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 369,
+    "line_end": 380
+  },
+  "O-02": {
+    "title": "按比较条件表达敏感性、阈值和取舍",
+    "level": "LEVEL_1_HARD",
+    "path": "criteria/writing_criteria_v2.md",
+    "line_start": 381,
+    "line_end": 392
+  }
+}

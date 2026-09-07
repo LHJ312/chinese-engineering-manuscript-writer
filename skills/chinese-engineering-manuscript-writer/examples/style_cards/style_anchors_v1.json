@@ -1,0 +1,42 @@
+[
+  {
+    "paper_id": "M02",
+    "decision": "YES",
+    "status": "FINAL_STYLE_ANCHOR",
+    "role": "MODEL",
+    "reason": "材料匹配、界面剥离与变形阶段形成条件性解释，静力基线与冲击分析衔接清楚。",
+    "limitation": "研究较少不能独立证明Gap；材料条件须保留。",
+    "meaning": "整体写作的高权重功能/风格参照，不表示所有段落GOOD；不认证研究事实。",
+    "bibliography": "examples/sources.md#m02"
+  },
+  {
+    "paper_id": "M04",
+    "decision": "YES",
+    "status": "FINAL_STYLE_ANCHOR",
+    "role": "MODEL",
+    "reason": "问题指向明确，部件对照、传力贡献和计算公式形成连续论证；不将编号段落本身判为机械表达。",
+    "limitation": "引言工作清单与具体本构细节不整体作风格模板。",
+    "meaning": "整体写作的高权重功能/风格参照，不表示所有段落GOOD；不认证研究事实。",
+    "bibliography": "examples/sources.md#m04"
+  },
+  {
+    "paper_id": "M09",
+    "decision": "YES",
+    "status": "FINAL_STYLE_ANCHOR",
+    "role": "MODEL",
+    "reason": "从现象、能量分配到波传播机制的推进清楚，试验与分析边界切换有明确交代；不据此认定普适设计方法已完成。",
+    "limitation": "机制贡献不等于完成通用设计方法。",
+    "meaning": "整体写作的高权重功能/风格参照，不表示所有段落GOOD；不认证研究事实。",
+    "bibliography": "examples/sources.md#m09"
+  },
+  {
+    "paper_id": "M10",
+    "decision": "YES",
+    "status": "FINAL_STYLE_ANCHOR",
+    "role": "MODEL",
+    "reason": "受力分解、参数异常和公式构建形成连续证据链，结论集中保留模型限制；文献组织仍可局部改进。",
+    "limitation": "文献组织可局部改善，模型验证边界不能省略。",
+    "meaning": "整体写作的高权重功能/风格参照，不表示所有段落GOOD；不认证研究事实。",
+    "bibliography": "examples/sources.md#m10"
+  }
+]

@@ -1,0 +1,383 @@
+{
+  "version": "1.0.0",
+  "release_status": "ACCEPTED_WITH_NOTES",
+  "development_status": "DEVELOPMENT_FROZEN",
+  "publication_ready": true,
+  "published_to_github": false,
+  "public_author": "LHJ312",
+  "repository": "https://github.com/LHJ312/chinese-engineering-manuscript-writer",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "citation_cff": "OMITTED_BY_USER",
+  "pending": [],
+  "excluded_from_this_manifest": [
+    "FILE_MANIFEST.json",
+    "SHA256SUMS"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 232,
+      "sha256": "8e474e0d5bc1e4df62eb50e58b02f115cda6a3564d82004506c4fd79c90f215b"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 942,
+      "sha256": "6dd7c761bb2a3b3fc82af71d1f5ddb28da98efc87e108a68f7211bb3e0aee97b"
+    },
+    {
+      "path": "docs/corpus_design.md",
+      "bytes": 1700,
+      "sha256": "11e9e579d10422f7235cab681ce71844c2bd693b09a27021a0f18f5e2ebca9ce"
+    },
+    {
+      "path": "docs/methodology.md",
+      "bytes": 1833,
+      "sha256": "52dff436ed051112b41de6ea66868c6ec4a4c636fcd67660e1561181791c3841"
+    },
+    {
+      "path": "docs/package_checks.md",
+      "bytes": 3691,
+      "sha256": "79910fa7e6ae52595588820ec0e4b1a87cf6225c0ebcc82f788dfc0acbab4b5a"
+    },
+    {
+      "path": "docs/validation.md",
+      "bytes": 2918,
+      "sha256": "b1655d481f0863998e2ec8171c5b6326cd2d97aa4626215b0f7be38e8a6f1db5"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 4563,
+      "sha256": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 736,
+      "sha256": "28ad04126c66c0b9bf006111b6aface2b7e8463b4190586c59b14540ce5dd0c2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10224,
+      "sha256": "a2e77ad24502520dd43a279cd154363657ee5c18d8de465661e2525eed2bc6f7"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/agents/openai.yaml",
+      "bytes": 42,
+      "sha256": "8619a54e8c098122a7f3881394f84ca89b684366e848233a29ad18b6ec363935"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/criteria/methods_impl_01.md",
+      "bytes": 647,
+      "sha256": "08f68430dfe2754232727fa1108272809709e7ec537c9c4d548b74fa44c96bdf"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/criteria/rule_aliases_v2.csv",
+      "bytes": 370,
+      "sha256": "259fc09150db176a43791b5ffadf2ff29ea42c9c835413b4fcc420b6be0082bd"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/criteria/rule_index_v2.json",
+      "bytes": 6013,
+      "sha256": "ece082159e603ce8c72232a983d724f2e758742f3650eeceea01fc61ce4ea2b0"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/criteria/writing_criteria_v2.md",
+      "bytes": 25727,
+      "sha256": "77de4f0b04e89803b16f3bfcd318f0e77e06a1493b1ada15574def1cac680d09"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/criteria/writing_criteria_v2_freeze.json",
+      "bytes": 892,
+      "sha256": "64babca0f287c808c179240030cac3afbc11d037870c51643c36fb503ca77094"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/case_index.json",
+      "bytes": 12296,
+      "sha256": "169a8cd6a41e2db4a644c716c2270e073fe7d1c342051b775859accb9114000f"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/ABS-01.md",
+      "bytes": 2301,
+      "sha256": "925041cd81d10bd208867f6d87bb35bab9587ec1cbc0ccced7ac1614072214a7"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/ABS-02.md",
+      "bytes": 1875,
+      "sha256": "d650ee6a1418bef13f91dd2167d63ab3a3040a4ba0fec99de3231911048781ba"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/ABS-03.md",
+      "bytes": 1832,
+      "sha256": "3c8136cc0334b6d78d4a000adb95c3f89999fb7e12df1dd76834e93a3c4e19eb"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/ABS-04.md",
+      "bytes": 1816,
+      "sha256": "4ba8af67f447b5e8378fd9a7b891ef80a1b0d82eb1c632eee22af88bb2844d19"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/CON-01.md",
+      "bytes": 1736,
+      "sha256": "33e8c41aa959afa184a7ea85a852c298b14ca7c2c2088b4c2c9e6d1e7db19a5e"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/CON-02.md",
+      "bytes": 1778,
+      "sha256": "4248d28f1bff9de3dc236fb8d04cb23b37367497a5b7f735b293709fa87e9edb"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/CON-03.md",
+      "bytes": 1821,
+      "sha256": "d0238f2bee750d88efdd4020dbbdcff7c58efe90c0c610dc65e2082311191513"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/CON-04.md",
+      "bytes": 1787,
+      "sha256": "45e0779caa9b96919a85229fd2fb96ae39c365313489de993ead222dec390615"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/DIS-01.md",
+      "bytes": 1630,
+      "sha256": "07a41e85437d2936b9043b5f65445161f2ac57b380a813c372d6e76be01950f4"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/DIS-02.md",
+      "bytes": 1856,
+      "sha256": "9f84935f18618cbff2f18ea0f05246bdc62e8fd419835525ff0789dff7d48dd6"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/DIS-03.md",
+      "bytes": 1934,
+      "sha256": "56fecda7f252b06e1a46d34b7b649db7b34fb775d3e0bbd43db13f8ad81e80bc"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/DIS-04.md",
+      "bytes": 2012,
+      "sha256": "5f8828b010ae857ea13dfe3a062f9cd7d128c8648bcdfefe3cdda2ead5bc3926"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/INT-01.md",
+      "bytes": 1467,
+      "sha256": "a937d85ce8daddaaf942161c320628327c2ced963aabd18b9036dfc1a96f60cf"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/INT-02.md",
+      "bytes": 1890,
+      "sha256": "dddec508ab49cae1a80c7c5ba3f10c92f9cc85fa021cb7c4cb83951aead056c9"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/INT-03.md",
+      "bytes": 1902,
+      "sha256": "4067b9a8dd7ef828e9f18888fa70b26f5e005f32fff609c57a4887de2a9e2f58"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/INT-04.md",
+      "bytes": 2149,
+      "sha256": "17df075496e1fad5588795399397b6e2a42ff75faba607de9e5c36c3862f6fe8"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/MET-01.md",
+      "bytes": 1599,
+      "sha256": "3766b3c614f6b888480cb63352dad2817a1e87427f6a29fb6abdca122a7dfd44"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/MET-02.md",
+      "bytes": 1840,
+      "sha256": "970c22a6eca48deda68d1d7f845885446826083e4afc943ca192d51a9508ee57"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/MET-03.md",
+      "bytes": 2084,
+      "sha256": "9df086c23d5ba48a95359f24424ed9407e51f604c362cc7df81f9c104440a212"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/MET-04.md",
+      "bytes": 1675,
+      "sha256": "ea194977abb06104017d03c689cab9d4b307ccfa40524d1588cc8cc03995e4f5"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/RES-01.md",
+      "bytes": 1675,
+      "sha256": "612f9bac55ddcac659ef69635df5e1fee0dc5494ca614859a59350659b363e1d"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/RES-02.md",
+      "bytes": 2285,
+      "sha256": "eb464bcaae4a1b5ee77b2f672c48ff45da417f8e64c5e728d2142be66f0f2b64"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/RES-03.md",
+      "bytes": 2002,
+      "sha256": "f7b04ace04002d2cebad03c62cf4c428ef6df4e8c4cea7a6cec63f20e8f37237"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/cases/RES-04.md",
+      "bytes": 1836,
+      "sha256": "045b4531c542304a7922f3145e4f4f2aecf768b3b747b1305acf67ee53ba969a"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/sources.md",
+      "bytes": 3016,
+      "sha256": "3c9d9d667b04700b14a31f690f1d4745dad0109e1b05e0196b98285b3b10cf6d"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-01.md",
+      "bytes": 1494,
+      "sha256": "eeaeaefae0f7c470c7ab2ef825d55d0e5e1a05716b7b5d3cf4d1866ad73505c4"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-02.md",
+      "bytes": 1760,
+      "sha256": "5dfbe1c88d31d8f1e6362159485174e9be0b65e234d1bf7499ec814785b3499f"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-03.md",
+      "bytes": 1126,
+      "sha256": "7724a9202d06d8f50880c56e724d3cf74d249d93f427ed88baa64bddb2cfc0e0"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-04.md",
+      "bytes": 1869,
+      "sha256": "a1958feb98dbff4bb09155da1b4bbe7a594090e3e037bb29f7b737a562dba053"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-05.md",
+      "bytes": 2212,
+      "sha256": "5002c917f47df3df5fe88626d0c5d2fe39467fa742cae3921ec1d8abeb98eff6"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-06.md",
+      "bytes": 2023,
+      "sha256": "fc076b16595bb4a99f95fb5680e81effedc8e316919c04ed9852a8381238a59c"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-07.md",
+      "bytes": 2339,
+      "sha256": "d4124a9db5e18bd0338ebc4351f6ba52c87d05bbc59b69c4ce02eccd2ed3f992"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-08.md",
+      "bytes": 1138,
+      "sha256": "8e53fb850f4e63d0b5ee0a1efd1289a7210e750aed796b60cd7b0bcb1d7dea4c"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-09.md",
+      "bytes": 2048,
+      "sha256": "f522b68d448c2a6ff56c43367a32331e8077ef8598098d909e75286256b5b210"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-10.md",
+      "bytes": 1397,
+      "sha256": "eba56ae3b5e4bc4e1a59433a032231e976ddcf0d8a712e0890e61444d19cf812"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-11.md",
+      "bytes": 1775,
+      "sha256": "3d96b8e5038cd4ff064b05448323868e559676887444f240d9b5c344f0e5f2a1"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-12.md",
+      "bytes": 2268,
+      "sha256": "0df22731e1d401d73b6056077d3bf79637dc80b117919610500c6f55785ef661"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-13.md",
+      "bytes": 2824,
+      "sha256": "2381b6082f9c6604d4afd12cebf26eea792514680f93510af096a03974ecb599"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/SC-14.md",
+      "bytes": 2225,
+      "sha256": "60deb0085f853ab3661e1fa432c2c1c7a3736392e9da1e50ebdcecccdd6d05d2"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/style_anchors_v1.json",
+      "bytes": 2019,
+      "sha256": "58cb2565ffc10efdb667ff756f3ca12dcba88c2d4ba6535c33eddc69764796c3"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/examples/style_cards/style_index.json",
+      "bytes": 3713,
+      "sha256": "73b354d09e6ef0b32e18a693c1e12f6fe6eccb066a589149eb01ac34935bd49c"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/LICENSE",
+      "bytes": 4563,
+      "sha256": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/NOTICE",
+      "bytes": 736,
+      "sha256": "28ad04126c66c0b9bf006111b6aface2b7e8463b4190586c59b14540ce5dd0c2"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/runtime_manifest.md",
+      "bytes": 4577,
+      "sha256": "7ba2b539f898b57b1894fd9204df5dd79135de295a35f7d5aa8e0187a0b376a1"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/scripts/read_runtime_asset.py",
+      "bytes": 3150,
+      "sha256": "c230bc0bef7cc53e71b26fb210f1a083bced1fe44c407f853e7365778df3e656"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/sections/abstract.md",
+      "bytes": 11537,
+      "sha256": "c989efc0a5b23328657401429ee97ea6a96a5bd1132531b05df54d73685e30fb"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/sections/conclusion.md",
+      "bytes": 7168,
+      "sha256": "6ac742e04ebf544c6380613a5b768e45f26b0186d9bf607b5d6da18a44f590d9"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/sections/discussion.md",
+      "bytes": 9008,
+      "sha256": "4d522315e1929eb43400038c8dd8c569594749d6b9acce5a6670f5c08d769ee4"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/sections/introduction.md",
+      "bytes": 3450,
+      "sha256": "c55bc47fd84c64531f9e21c078a966009c119d40aa99a43314a03808d4a92eac"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/sections/methods.md",
+      "bytes": 9661,
+      "sha256": "b20b2c3092b8e98dbf7ef3bf0330c6ce29758fab59440045ea7911f4a959d325"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/sections/results.md",
+      "bytes": 8537,
+      "sha256": "5c67d1d9ceaacbe681585488645206ba6f08b31e5540bdea845fe8bdff3587e5"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/sections/scientific_synthesis.md",
+      "bytes": 2328,
+      "sha256": "11158e47ce3c51078d88292f67af2af79b742599aa2479deeca720f14c5b390a"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/SKILL.md",
+      "bytes": 3782,
+      "sha256": "b23c0d880afd7b1df991fc746a7de083977ca69cf67e060b6c1909d9f7879e3b"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/workflows/drafting_workflow.md",
+      "bytes": 1939,
+      "sha256": "bbe081b4d1115023eb5e6ac24f677d128f258cbca525873459aa72ba8a72172f"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/workflows/editing_workflow.md",
+      "bytes": 1824,
+      "sha256": "a74b400289cb08361dd69dceadbcc8edf50f2b2313e3cd1ab0cf72b3ff4dbdbe"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/workflows/manuscript_review_workflow.md",
+      "bytes": 1654,
+      "sha256": "f3f88c4fbe3a86f66fa3d20af03c5504df618bfee8669462fc9e602786330e0e"
+    },
+    {
+      "path": "skills/chinese-engineering-manuscript-writer/workflows/task_router.md",
+      "bytes": 3690,
+      "sha256": "875f67ad500cea85e0950140b2ed12d18b61ebacc06cb8223bde3cc145066cbe"
+    }
+  ]
+}

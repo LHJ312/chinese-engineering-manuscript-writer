@@ -1,0 +1,25 @@
+# Generated and local-only material
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex/
+tmp/
+temp/
+checks/
+private/
+holdout_inputs/
+*.pdf
+*.docx
+*.doc
+*.zip
+*.log
+.env
+.env.*
+*.pem
+*.key
+credentials.json

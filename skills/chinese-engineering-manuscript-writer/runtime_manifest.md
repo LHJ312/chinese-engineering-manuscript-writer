@@ -1,0 +1,78 @@
+# Runtime Manifest — Public v1.0.0
+
+RELEASE_STATUS = ACCEPTED_WITH_NOTES
+
+DEVELOPMENT_STATUS = DEVELOPMENT_FROZEN
+
+正式运行文件采用按需加载，不是启动批量读取清单。先读SKILL.md及workflows/task_router.md，再按任务选择章节、规则ID与必要模式摘要。
+
+31条规则与六章Playbook保留；Scientific Synthesis为Introduction补充模块。24个案例ID只提供公开模式摘要，14张Style Cards提供写作动作，不含原文长摘录或未公开稿件。外部源文不是运行依赖。
+
+## 运行文件
+
+- [LICENSE](LICENSE)
+- [NOTICE](NOTICE)
+- [SKILL.md](SKILL.md)
+- [agents/openai.yaml](agents/openai.yaml)
+- [criteria/methods_impl_01.md](criteria/methods_impl_01.md)
+- [criteria/rule_aliases_v2.csv](criteria/rule_aliases_v2.csv)
+- [criteria/rule_index_v2.json](criteria/rule_index_v2.json)
+- [criteria/writing_criteria_v2.md](criteria/writing_criteria_v2.md)
+- [criteria/writing_criteria_v2_freeze.json](criteria/writing_criteria_v2_freeze.json)
+- [examples/case_index.json](examples/case_index.json)
+- [examples/cases/ABS-01.md](examples/cases/ABS-01.md)
+- [examples/cases/ABS-02.md](examples/cases/ABS-02.md)
+- [examples/cases/ABS-03.md](examples/cases/ABS-03.md)
+- [examples/cases/ABS-04.md](examples/cases/ABS-04.md)
+- [examples/cases/CON-01.md](examples/cases/CON-01.md)
+- [examples/cases/CON-02.md](examples/cases/CON-02.md)
+- [examples/cases/CON-03.md](examples/cases/CON-03.md)
+- [examples/cases/CON-04.md](examples/cases/CON-04.md)
+- [examples/cases/DIS-01.md](examples/cases/DIS-01.md)
+- [examples/cases/DIS-02.md](examples/cases/DIS-02.md)
+- [examples/cases/DIS-03.md](examples/cases/DIS-03.md)
+- [examples/cases/DIS-04.md](examples/cases/DIS-04.md)
+- [examples/cases/INT-01.md](examples/cases/INT-01.md)
+- [examples/cases/INT-02.md](examples/cases/INT-02.md)
+- [examples/cases/INT-03.md](examples/cases/INT-03.md)
+- [examples/cases/INT-04.md](examples/cases/INT-04.md)
+- [examples/cases/MET-01.md](examples/cases/MET-01.md)
+- [examples/cases/MET-02.md](examples/cases/MET-02.md)
+- [examples/cases/MET-03.md](examples/cases/MET-03.md)
+- [examples/cases/MET-04.md](examples/cases/MET-04.md)
+- [examples/cases/RES-01.md](examples/cases/RES-01.md)
+- [examples/cases/RES-02.md](examples/cases/RES-02.md)
+- [examples/cases/RES-03.md](examples/cases/RES-03.md)
+- [examples/cases/RES-04.md](examples/cases/RES-04.md)
+- [examples/sources.md](examples/sources.md)
+- [examples/style_cards/SC-01.md](examples/style_cards/SC-01.md)
+- [examples/style_cards/SC-02.md](examples/style_cards/SC-02.md)
+- [examples/style_cards/SC-03.md](examples/style_cards/SC-03.md)
+- [examples/style_cards/SC-04.md](examples/style_cards/SC-04.md)
+- [examples/style_cards/SC-05.md](examples/style_cards/SC-05.md)
+- [examples/style_cards/SC-06.md](examples/style_cards/SC-06.md)
+- [examples/style_cards/SC-07.md](examples/style_cards/SC-07.md)
+- [examples/style_cards/SC-08.md](examples/style_cards/SC-08.md)
+- [examples/style_cards/SC-09.md](examples/style_cards/SC-09.md)
+- [examples/style_cards/SC-10.md](examples/style_cards/SC-10.md)
+- [examples/style_cards/SC-11.md](examples/style_cards/SC-11.md)
+- [examples/style_cards/SC-12.md](examples/style_cards/SC-12.md)
+- [examples/style_cards/SC-13.md](examples/style_cards/SC-13.md)
+- [examples/style_cards/SC-14.md](examples/style_cards/SC-14.md)
+- [examples/style_cards/style_anchors_v1.json](examples/style_cards/style_anchors_v1.json)
+- [examples/style_cards/style_index.json](examples/style_cards/style_index.json)
+- [runtime_manifest.md](runtime_manifest.md)
+- [scripts/read_runtime_asset.py](scripts/read_runtime_asset.py)
+- [sections/abstract.md](sections/abstract.md)
+- [sections/conclusion.md](sections/conclusion.md)
+- [sections/discussion.md](sections/discussion.md)
+- [sections/introduction.md](sections/introduction.md)
+- [sections/methods.md](sections/methods.md)
+- [sections/results.md](sections/results.md)
+- [sections/scientific_synthesis.md](sections/scientific_synthesis.md)
+- [workflows/drafting_workflow.md](workflows/drafting_workflow.md)
+- [workflows/editing_workflow.md](workflows/editing_workflow.md)
+- [workflows/manuscript_review_workflow.md](workflows/manuscript_review_workflow.md)
+- [workflows/task_router.md](workflows/task_router.md)
+
+命令从Skill根目录执行；Python读取器只用标准库。无Python时按规则索引行号读取。HOLDOUT结果属于脱敏前冻结运行包，公开包没有重跑行为测试；发布状态不代表预注册严格门槛已满足。安装兼容、路径、隐私与完整性检查也不等于写作效果验证。
